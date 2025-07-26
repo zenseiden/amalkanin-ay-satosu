@@ -1,0 +1,334 @@
+@charset "UTF-8";
+/* Küçük cihazlar (telefonlar, dikey) */
+@media (max-width: 600px) {
+  .landing .landing-left {
+    background-color: red !important;
+  }
+  .navbar .container {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    padding: 0 20px !important;
+    background-color: #fff !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px !important;
+  }
+  .navbar .container .navbar-content {
+    display: none !important;
+  }
+  .navbar .container .navbar-aside-mobile {
+    display: block !important;
+  }
+  .landing .landing-jumbotron {
+    margin-top: 20px !important;
+    width: 100% !important;
+    bottom: 0 !important;
+    border-radius: 0 !important;
+    background-color: #000 !important;
+  }
+  .landing .landing-jumbotron .relationship-stats {
+    padding: 20px !important;
+  }
+  .landing .landing-jumbotron .relationship-stats h1 {
+    font-size: 48px !important;
+    color: #fff;
+  }
+  .landing .landing-jumbotron .relationship-stats span {
+    font-size: 11px !important;
+    text-align: center !important;
+    color: rgba(255, 255, 255, 0.4) !important;
+  }
+  .landing .landing-left {
+    display: none !important;
+  }
+  .landing .landing-right {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .landing .landing-right .welcome-message {
+    gap: 5px !important;
+    padding: 0px 30px !important;
+  }
+  .landing .landing-right .welcome-message .paragraph-area p {
+    max-width: 100% !important;
+  }
+  .landing .landing-right .welcome-message .buttons-area {
+    gap: 10px !important;
+    margin-top: 10px !important;
+    flex-direction: column !important;
+    align-items: start !important;
+  }
+  .section-header.light h1 {
+    font-size: 48px !important;
+    white-space: nowrap !important;
+  }
+  .section-header.dark h1 {
+    font-size: 48px !important;
+    white-space: nowrap !important;
+  }
+  .timeline {
+    padding: 30px 0 !important;
+  }
+  .timeline .container {
+    padding: 0 10px !important;
+  }
+  .timeline .timeline-inner {
+    padding: 20px 0 !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item {
+    margin-left: 10px !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item .accordion-header {
+    padding: 20px !important;
+    font-size: 13px !important;
+    white-space: nowrap !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item .accordion-header::before {
+    display: none !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item .accordion-header::after {
+    display: none !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item .accordion-content .accordion-image {
+    display: none !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item .accordion-content .accordion-paragraph {
+    padding: 20px !important;
+    max-width: 100% !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item .accordion-content .accordion-paragraph h1 {
+    font-size: 32px !important;
+  }
+  .timeline .timeline-inner .accordion .accordion-item .accordion-content.open {
+    max-height: 700px !important;
+  }
+  .locations .container {
+    padding: 0 20px !important;
+  }
+  .locations .locations-inner {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .locations .locations-inner .location-card:hover {
+    top: 0 !important;
+  }
+  .memories .container {
+    padding: 0 30px !important;
+  }
+  .memories .memories-inner {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .memories .memories-inner .memory-card:hover {
+    top: 0 !important;
+  }
+  .playlist .container {
+    padding: 0 30px !important;
+  }
+  .playlist .container .playlist-inner .playlist-content {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .peters-message .container {
+    padding: 0 30px !important;
+  }
+  .return-home {
+    padding: 20px !important;
+  }
+  .story-breadcrumb {
+    padding: 10px !important;
+  }
+  .story-content .episode:last-child {
+    padding-bottom: 60px !important;
+  }
+  .story-content .episode .episode-bg {
+    height: 200px !important;
+  }
+  .story-content .episode .container {
+    padding: 0 20px !important;
+  }
+  .story-content .episode .episode-header h1 {
+    font-size: 36px !important;
+  }
+  .story-content .episode .episode-content p {
+    font-size: 12px !important;
+  }
+  .story-content .episode .episode-content p.caption {
+    padding: 20px !important;
+  }
+  .story-content .episode .episode-audio {
+    padding: 10px !important;
+  }
+  .episode-selector {
+    right: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: calc(100% - 40px) !important;
+  }
+  .offcanvas-menu {
+    width: 100% !important;
+  }
+  .offcanvas-menu .offcanvas-header,
+  .offcanvas-menu .offcanvas-content {
+    padding: 20px !important;
+  }
+}
+/* Orta cihazlar (tabletler) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .navbar .container {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    background-color: #fff !important;
+    padding: 0 40px !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px !important;
+  }
+  .navbar .container .navbar-content {
+    display: none !important;
+  }
+  .navbar .container .navbar-aside-mobile {
+    display: block !important;
+  }
+  .landing .landing-jumbotron {
+    bottom: 0 !important;
+    width: calc(100% - 60px) !important;
+  }
+  .landing .landing-jumbotron .relationship-stats {
+    padding: 20px !important;
+  }
+  .landing .landing-jumbotron .relationship-stats h1 {
+    font-size: 48px !important;
+  }
+  .landing .landing-jumbotron .relationship-stats span {
+    font-size: 11px !important;
+    white-space: nowrap !important;
+  }
+  .landing .landing-left {
+    display: none !important;
+  }
+  .landing .landing-right {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .landing .landing-right .welcome-message {
+    padding: 0px 30px !important;
+  }
+  .timeline .container {
+    padding: 0 30px !important;
+  }
+  .timeline .container .timeline-inner .accordion-image {
+    display: none !important;
+  }
+  .timeline .container .timeline-inner .accordion-paragraph {
+    max-width: 100% !important;
+  }
+  .locations .container {
+    padding: 0 30px !important;
+  }
+  .locations .locations-inner {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .memories .container {
+    padding: 0 30px !important;
+  }
+  .memories .memories-inner {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .playlist .container {
+    padding: 0 30px !important;
+  }
+  .playlist .playlist-inner .playlist-content {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .peters-message .container {
+    padding: 0 30px !important;
+  }
+  .return-home {
+    padding: 20px 0 !important;
+  }
+  .story-content {
+    padding-top: 10px !important;
+  }
+  .story-content .episode .episode-header h1 {
+    font-size: 48px !important;
+  }
+  .story-content .episode .episode-content p {
+    font-size: 12px !important;
+  }
+  .story-content .episode .episode-content p.caption {
+    font-size: 14px !important;
+  }
+  .story-content .episode .episode-bg {
+    height: 300px !important;
+  }
+  .story-content .episode .container {
+    padding: 0 30px !important;
+  }
+  .story-content .episode:last-child {
+    padding-bottom: 60px !important;
+  }
+  .episode-selector {
+    width: calc(100% - 60px) !important;
+  }
+}
+/* Büyük cihazlar (laptop, masaüstü) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .navbar .container {
+    background-color: #fff !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  .navbar .navbar-content {
+    display: none !important;
+  }
+  .navbar .navbar-aside-mobile {
+    display: block !important;
+  }
+  .landing .landing-jumbotron {
+    width: 75% !important;
+  }
+  .landing .landing-jumbotron .relationship-stats {
+    padding: 20px !important;
+  }
+  .landing .landing-left {
+    display: none !important;
+  }
+  .landing .landing-right {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .landing .landing-right .welcome-message {
+    padding: 0px 120px !important;
+  }
+  .timeline .timeline-inner .accordion-content .accordion-paragraph {
+    max-width: 100% !important;
+  }
+  .timeline .timeline-inner .accordion-content .accordion-image {
+    display: none !important;
+  }
+  .locations .locations-inner {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .memories .memories-inner {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .memories .memories-inner .memory-card:hover {
+    top: 0 !important;
+  }
+  .playlist .playlist-inner .playlist-content {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .peters-message .container {
+    padding: 0 60px !important;
+  }
+  .episode .episode-bg {
+    height: 400px !important;
+  }
+  .episode .container {
+    padding: 0 60px !important;
+  }
+  .story-content {
+    padding: 30px 0 !important;
+  }
+  .return-home {
+    padding: 30px !important;
+  }
+  .story-breadcrumb {
+    padding: 0 60px !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */

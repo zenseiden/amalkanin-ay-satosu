@@ -1,0 +1,518 @@
+/* Küçük cihazlar (telefonlar, dikey) */
+@media (max-width: 600px) {
+    .landing {
+        .landing-left {
+            background-color: red !important;
+        }
+    }
+
+    .navbar {
+        .container {
+            margin: 0 !important;
+            border-radius: 0 !important;
+            padding: 0 20px !important;
+            background-color: #fff !important;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px !important;
+
+            .navbar-content {
+                display: none !important;
+            }
+
+            .navbar-aside-mobile {
+                display: block !important;
+            }
+        }
+    }
+
+    .landing {
+        .landing-jumbotron {
+            margin-top: 20px !important;
+            width: 100% !important;
+            bottom: 0 !important;
+            border-radius: 0 !important;
+            background-color: #000 !important;
+
+            .relationship-stats {
+                padding: 20px !important;
+
+                h1 {
+                    font-size: 48px !important;
+                    color: #fff;
+                }
+
+                span {
+                    font-size: 11px !important;
+                    text-align: center !important;
+                    color: rgba($color: #fff, $alpha: 0.4) !important;
+                }
+            }
+        }
+
+        .landing-left {
+            display: none !important;
+        }
+
+        .landing-right {
+            position: relative !important;
+            width: 100% !important;
+
+            .welcome-message {
+                gap: 5px !important;
+                padding: 0px 30px !important;
+
+                .paragraph-area {
+                    p {
+                        max-width: 100% !important;
+                    }
+                }
+
+                .buttons-area {
+                    gap: 10px !important;
+                    margin-top: 10px !important;
+                    flex-direction: column !important;
+                    align-items: start !important;
+                }
+            }
+        }
+    }
+
+    .section-header {
+        &.light {
+            h1 {
+                font-size: 48px !important;
+                white-space: nowrap !important;
+            }
+        }
+
+        &.dark {
+            h1 {
+                font-size: 48px !important;
+                white-space: nowrap !important;
+            }
+        }
+    }
+
+    .timeline {
+        padding: 30px 0 !important;
+
+        .container {
+            padding: 0 10px !important;
+        }
+
+        .timeline-inner {
+            padding: 20px 0 !important;
+
+            .accordion {
+                .accordion-item {
+                    margin-left: 10px !important;
+
+                    .accordion-header {
+                        padding: 20px !important;
+                        font-size: 13px !important;
+                        white-space: nowrap !important;
+
+                        &::before {
+                            display: none !important;
+                        }
+
+                        &::after {
+                            display: none !important;
+                        }
+                    }
+
+                    .accordion-content {
+                        .accordion-image {
+                            display: none !important;
+                        }
+
+                        .accordion-paragraph {
+                            padding: 20px !important;
+                            max-width: 100% !important;
+
+                            h1 {
+                                font-size: 32px !important;
+                            }
+                        }
+
+                        &.open {
+                            max-height: 700px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .locations {
+        .container {
+            padding: 0 20px !important;
+        }
+
+        .locations-inner {
+            grid-template-columns: repeat(1, 1fr) !important;
+
+            .location-card {
+                &:hover {
+                    top: 0 !important;
+                }
+            }
+        }
+    }
+
+    .memories {
+        .container {
+            padding: 0 30px !important;
+        }
+
+        .memories-inner {
+            grid-template-columns: repeat(1, 1fr) !important;
+
+            .memory-card {
+                &:hover {
+                    top: 0 !important;
+                }
+            }
+        }
+    }
+
+    .playlist {
+        .container {
+            padding: 0 30px !important;
+
+            .playlist-inner {
+                .playlist-content {
+                    grid-template-columns: repeat(1, 1fr) !important;
+                }
+            }
+        }
+    }
+
+    .peters-message {
+        .container {
+            padding: 0 30px !important;
+        }
+    }
+
+    .return-home {
+        padding: 20px !important;
+    }
+
+    .story-breadcrumb {
+        padding: 10px !important;
+    }
+
+    .story-content {
+        .episode {
+            &:last-child {
+                padding-bottom: 60px !important;
+            }
+
+            .episode-bg {
+                height: 200px !important;
+            }
+
+            .container {
+                padding: 0 20px !important;
+            }
+
+            .episode-header {
+                h1 {
+                    font-size: 36px !important;
+                }
+            }
+
+            .episode-content {
+                p {
+                    font-size: 12px !important;
+
+                    &.caption {
+                        padding: 20px !important;
+                    }
+                }
+            }
+
+            .episode-audio {
+                padding: 10px !important;
+            }
+        }
+    }
+
+    .episode-selector {
+        right: 0 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: calc(100% - 40px) !important;
+    }
+
+    .offcanvas-menu {
+        width: 100% !important;
+
+        .offcanvas-header,
+        .offcanvas-content {
+            padding: 20px !important;
+        }
+    }
+}
+
+/* Orta cihazlar (tabletler) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .navbar {
+        .container {
+            margin: 0 !important;
+            border-radius: 0 !important;
+            background-color: #fff !important;
+            padding: 0 40px !important;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px !important;
+
+            .navbar-content {
+                display: none !important;
+            }
+
+            .navbar-aside-mobile {
+                display: block !important;
+            }
+        }
+    }
+
+    .landing {
+
+        .landing-jumbotron {
+            bottom: 0 !important;
+            width: calc(100% - 60px) !important;
+
+            .relationship-stats {
+                padding: 20px !important;
+
+                h1 {
+                    font-size: 48px !important;
+                }
+
+                span {
+                    font-size: 11px !important;
+                    white-space: nowrap !important;
+                }
+            }
+        }
+
+        .landing-left {
+            display: none !important;
+        }
+
+        .landing-right {
+            position: relative !important;
+            width: 100% !important;
+
+            .welcome-message {
+                padding: 0px 30px !important;
+            }
+        }
+    }
+
+    .timeline {
+        .container {
+            padding: 0 30px !important;
+
+            .timeline-inner {
+                .accordion-image {
+                    display: none !important;
+                }
+
+                .accordion-paragraph {
+                    max-width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .locations {
+        .container {
+            padding: 0 30px !important;
+        }
+
+        .locations-inner {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+
+    .memories {
+        .container {
+            padding: 0 30px !important;
+        }
+
+        .memories-inner {
+            grid-template-columns: repeat(1, 1fr) !important;
+        }
+    }
+
+    .playlist {
+        .container {
+            padding: 0 30px !important;
+        }
+
+        .playlist-inner {
+            .playlist-content {
+                grid-template-columns: repeat(1, 1fr) !important;
+            }
+        }
+    }
+
+    .peters-message {
+        .container {
+            padding: 0 30px !important;
+        }
+    }
+
+    .return-home {
+        padding: 20px 0 !important;
+    }
+
+    .story-content {
+        padding-top: 10px !important;
+
+        .episode {
+            .episode-header {
+                h1 {
+                    font-size: 48px !important;
+                }
+            }
+
+            .episode-content {
+                p {
+                    font-size: 12px !important;
+
+                    &.caption {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+
+            .episode-bg {
+                height: 300px !important;
+            }
+
+            .container {
+                padding: 0 30px !important;
+            }
+
+            &:last-child {
+                padding-bottom: 60px !important;
+            }
+        }
+    }
+
+    .episode-selector {
+        width: calc(100% - 60px) !important;
+    }
+}
+
+/* Büyük cihazlar (laptop, masaüstü) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .navbar {
+        .container {
+            background-color: #fff !important;
+            margin: 0 !important;
+            border-radius: 0 !important;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        }
+
+        .navbar-content {
+            display: none !important;
+        }
+
+        .navbar-aside-mobile {
+            display: block !important;
+        }
+    }
+
+    .landing {
+        .landing-jumbotron {
+            width: 75% !important;
+
+            .relationship-stats {
+                padding: 20px !important;
+            }
+        }
+
+        .landing-left {
+            display: none !important;
+        }
+
+        .landing-right {
+            position: relative !important;
+            width: 100% !important;
+
+            .welcome-message {
+                padding: 0px 120px !important;
+            }
+        }
+    }
+
+    .timeline {
+        .timeline-inner {
+            .accordion-content {
+                .accordion-paragraph {
+                    max-width: 100% !important;
+                }
+
+                .accordion-image {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    .locations {
+        .locations-inner {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+
+    .memories {
+        .memories-inner {
+            grid-template-columns: repeat(2, 1fr) !important;
+
+            .memory-card {
+                &:hover {
+                    top: 0 !important;
+                }
+            }
+        }
+    }
+
+    .playlist {
+        .playlist-inner {
+            .playlist-content {
+                grid-template-columns: repeat(2, 1fr) !important;
+            }
+        }
+    }
+
+    .peters-message {
+        .container {
+            padding: 0 60px !important;
+        }
+    }
+
+    .episode {
+        .episode-bg {
+            height: 400px !important;
+        }
+
+        .container {
+            padding: 0 60px !important;
+        }
+    }
+
+    .story-content {
+        padding: 30px 0 !important;
+    }
+
+    .return-home {
+        padding: 30px !important;
+    }
+
+    .story-breadcrumb {
+        padding: 0 60px !important;
+    }
+}

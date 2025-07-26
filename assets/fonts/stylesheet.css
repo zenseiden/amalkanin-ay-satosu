@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Pieta';
+    src: url('../fonts/PietaThin.eot');
+    src: url('../fonts/PietaThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PietaThin.woff2') format('woff2'),
+        url('../fonts/PietaThin.woff') format('woff'),
+        url('../fonts/PietaThin.ttf') format('truetype'),
+        url('../fonts/PietaThin.svg#PietaThin') format('svg');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Pieta';
+    src: url('../fonts/PietaRegular.eot');
+    src: url('../fonts/PietaRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PietaRegular.woff2') format('woff2'),
+        url('../fonts/PietaRegular.woff') format('woff'),
+        url('../fonts/PietaRegular.ttf') format('truetype'),
+        url('../fonts/PietaRegular.svg#PietaRegular') format('svg');
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'Pieta';
+    src: url('../fonts/PietaMedium.eot');
+    src: url('../fonts/PietaMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PietaMedium.woff2') format('woff2'),
+        url('../fonts/PietaMedium.woff') format('woff'),
+        url('../fonts/PietaMedium.ttf') format('truetype'),
+        url('../fonts/PietaMedium.svg#PietaMedium') format('svg');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Pieta';
+    src: url('../fonts/PietaBold.eot');
+    src: url('../fonts/PietaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PietaBold.woff2') format('woff2'),
+        url('../fonts/PietaBold.woff') format('woff'),
+        url('../fonts/PietaBold.ttf') format('truetype'),
+        url('../fonts/PietaBold.svg#PietaBold') format('svg');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Pieta';
+    src: url('../fonts/PietaBlack.eot');
+    src: url('../fonts/PietaBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PietaBlack.woff2') format('woff2'),
+        url('../fonts/PietaBlack.woff') format('woff'),
+        url('../fonts/PietaBlack.ttf') format('truetype'),
+        url('../fonts/PietaBlack.svg#PietaBlack') format('svg');
+    font-weight: 900;
+}
+
+/*Tangerine*/
+@font-face {
+    font-family: 'Tangerine';
+    src: url('../fonts/Tangerine-Regular.eot');
+    src: url('../fonts/Tangerine-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tangerine-Regular.woff2') format('woff2'),
+        url('../fonts/Tangerine-Regular.woff') format('woff'),
+        url('../fonts/Tangerine-Regular.ttf') format('truetype'),
+        url('../fonts/Tangerine-Regular.svg#PietaThin') format('svg');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Tangerine';
+    src: url('../fonts/Tangerine-Bold.eot');
+    src: url('../fonts/Tangerine-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tangerine-Bold.woff2') format('woff2'),
+        url('../fonts/Tangerine-Bold.woff') format('woff'),
+        url('../fonts/Tangerine-Bold.ttf') format('truetype'),
+        url('../fonts/Tangerine-Bold.svg#PietaThin') format('svg');
+    font-weight: 700;
+}
