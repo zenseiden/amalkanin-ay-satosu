@@ -413,7 +413,6 @@ a {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   gap: 10px;
   top: 0;
-  cursor: pointer;
   transition: 300ms all ease;
 }
 .locations .locations-inner .location-card .location-image {
@@ -502,7 +501,6 @@ a {
   border-radius: 20px;
   overflow: hidden;
   top: 0;
-  cursor: pointer;
   transition: 300ms all ease;
 }
 .memories .memories-inner .memory-card .memory-image {
@@ -563,19 +561,19 @@ a {
 .memories .memories-inner .memory-card .memory-text p {
   color: rgba(255, 255, 255, 0.4);
 }
-.memories .memories-inner .memory-card:hover, .memories .memories-inner .memory-card:focus {
+.memories .memories-inner .memory-card:hover {
   top: -20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-.memories .memories-inner .memory-card:hover .memory-image::before, .memories .memories-inner .memory-card:focus .memory-image::before {
+.memories .memories-inner .memory-card:hover .memory-image::before {
   opacity: 1;
 }
-.memories .memories-inner .memory-card:hover .memory-date, .memories .memories-inner .memory-card:focus .memory-date {
+.memories .memories-inner .memory-card:hover .memory-date {
   bottom: 30px;
   opacity: 1;
   visibility: visible;
 }
-.memories .memories-inner .memory-card:hover .memory-text, .memories .memories-inner .memory-card:focus .memory-text {
+.memories .memories-inner .memory-card:hover .memory-text {
   bottom: 100px;
   opacity: 1;
   visibility: visible;
@@ -623,7 +621,6 @@ a {
   background-color: transparent;
   padding: 0px;
   overflow: hidden;
-  cursor: pointer;
   transition: 300ms all ease;
 }
 .playlist .playlist-inner .playlist-content .playlist-card .bg-image {
