@@ -60,13 +60,27 @@
                 gap: 5px !important;
                 padding: 0px 30px !important;
 
+                .brand-area{
+                    display: none !important;
+                }
+
+                .header-area{
+                    h1{
+                        font-size: 48px !important;
+                    }
+                }
+
                 .paragraph-area {
                     p {
                         max-width: 100% !important;
+                        font-size: 12px !important;
                     }
                 }
 
                 .buttons-area {
+                    a{
+                        padding: 12px !important;
+                    }
                     gap: 10px !important;
                     margin-top: 10px !important;
                     flex-direction: column !important;

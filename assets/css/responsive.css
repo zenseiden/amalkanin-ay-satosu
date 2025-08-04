@@ -47,14 +47,24 @@
     gap: 5px !important;
     padding: 0px 30px !important;
   }
+  .landing .landing-right .welcome-message .brand-area {
+    display: none !important;
+  }
+  .landing .landing-right .welcome-message .header-area h1 {
+    font-size: 48px !important;
+  }
   .landing .landing-right .welcome-message .paragraph-area p {
     max-width: 100% !important;
+    font-size: 12px !important;
   }
   .landing .landing-right .welcome-message .buttons-area {
     gap: 10px !important;
     margin-top: 10px !important;
     flex-direction: column !important;
     align-items: start !important;
+  }
+  .landing .landing-right .welcome-message .buttons-area a {
+    padding: 12px !important;
   }
   .section-header.light h1 {
     font-size: 48px !important;
