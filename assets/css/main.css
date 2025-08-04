@@ -1093,6 +1093,16 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/*Version Controller*/
+.version-controller {
+  background-color: #000;
+  padding: 30px;
+  color: rgba(255, 255, 255, 0.3);
+}
+.version-controller p {
+  text-align: center;
+}
+
 /*Offcanvas Mobile*/
 .offcanvas-menu.mobile .mobile-main-menu {
   display: flex;
