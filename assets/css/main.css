@@ -294,6 +294,7 @@ a {
   position: relative;
   background-color: #fff;
   padding: 30px;
+  color: #000;
   font-size: 14px;
 }
 .timeline .timeline-inner .accordion .accordion-item .accordion-header span {
@@ -413,6 +414,10 @@ a {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   gap: 10px;
   top: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   transition: 300ms all ease;
 }
 .locations .locations-inner .location-card .location-image {
@@ -501,6 +506,10 @@ a {
   border-radius: 20px;
   overflow: hidden;
   top: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   transition: 300ms all ease;
 }
 .memories .memories-inner .memory-card .memory-image {
@@ -621,6 +630,10 @@ a {
   background-color: transparent;
   padding: 0px;
   overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   transition: 300ms all ease;
 }
 .playlist .playlist-inner .playlist-content .playlist-card .bg-image {
